@@ -34,7 +34,8 @@ public class EmployeeService {
         existigEmployee.setName(employee.getName());
         existigEmployee.setEmail(employee.getEmail());
         existigEmployee.setPhone(employee.getPhone());
-        existigEmployee.setAddress(employee.getAddress());
+       // existigEmployee.setAddress(employee.getAddress());
+	    existigEmployee.setAddress(employee.getAddress());
         return repository.save(existigEmployee);
     }
 }
